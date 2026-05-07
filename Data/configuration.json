@@ -1,0 +1,59 @@
+{
+    "application_ID": 0,
+    "token": "",
+    "prefix": "!",
+    "delete_commands": true,
+    "settings_perms": [
+        0
+    ],
+    "ticket_perms": [],
+    "giveaway_perms": [],
+    "mod_perms": [],
+    "ticket_category": 0,
+    "ticket_message": 0,
+    "ticket_welcome": "Hello {user_name}! Thank you for creating a ticket in {server}. Please be patient, our support team will be with you as soon as possible!!! \ud83c\udf89",
+    "ticket_information_channel": 0,
+    "------------------------Ping_Settings": "Ping_Settings------------------------",
+    "ghost_ping": false,
+    "ping_everyone": true,
+    "ping_here": false,
+    "------------------------Embed_Settings": "Embed_Settings------------------------",
+    "embed_title": "",
+    "image_url": "",
+    "thumbnail_logo_url": "",
+    "color_hex_code": "None",
+    "embed_footer_text": "",
+    "embed_footer_url": "",
+    "------------------------Member_Events": "Member_Events------------------------",
+    "member_welcome_description": "Hello {user_name}, please enjoy your time on our server : {server}!",
+    "member_left_description": "Hope to see you soon {user_name} \ud83d\ude26",
+    "welcome_channel": 0,
+    "bye-bye_channel": 0,
+    "role_to_assing_to_joined_member": 0,
+    "------------------------Moderation_Settings": "Moderation_Settings------------------------",
+    "kick_message": "",
+    "ban_message": "",
+    "blacklisted_words": [],
+    "------------------------OverSeers": "OverSeers------------------------",
+    "message_overseer": [
+        {
+            "859540591431909447": "attachments"
+        }
+    ],
+    "------------------------Server_Stats": "Server_Stats------------------------",
+    "stats_category": 0,
+    "channel_counter": {
+        "enabled?": false,
+        "channel_id": 0
+    },
+    "role_counter": {
+        "enabled?": false,
+        "channel_id": 0
+    },
+    "member_counter": {
+        "enabled?": false,
+        "channel_id": 0
+    },
+    "------------------------Development_Credits": "Development_Credits------------------------",
+    "logging":true
+}

@@ -1,0 +1,14 @@
+{
+    "loop_delay":15,
+    "statuses":{
+        "playing":[
+            "Neon Development"
+        ],
+        "listening":[],
+        "watching":[
+            "the development progress"
+        ],
+        "streaming":[]
+    }
+
+}

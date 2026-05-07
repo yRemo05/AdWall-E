@@ -19,6 +19,7 @@ A JSON-configured Discord bot template built with Python cogs. The project inclu
 .
 |-- main.py
 |-- bot.bat
+|-- requirements.txt
 |-- Cogs/
 |   |-- Development.py
 |   |-- Errors.py
@@ -42,16 +43,17 @@ A JSON-configured Discord bot template built with Python cogs. The project inclu
 - Python 3.8 or newer
 - A Discord bot application and token from the Discord Developer Portal
 - Discord gateway intents enabled for the bot
-- Python packages used by the bot code, including:
-  - `discord.py` or the Discord API wrapper version your fork uses
-  - `colorama`
-
-This repository does not currently include a `requirements.txt`, so install the packages that match your local bot wrapper before running.
+- Python packages listed in `requirements.txt`
 
 ## Setup
 
 1. Clone the repository.
-2. Install the required Python packages.
+2. Install the required Python packages:
+
+```powershell
+pip install -r requirements.txt
+```
+
 3. Open `Data/configuration.json`.
 4. Set the bot token:
 
@@ -100,4 +102,4 @@ When `main.py` starts, it reads `Data/configuration.json`, creates a command bot
 
 ## License
 
-This project is licensed under the terms in `LICENSE`.
+This project is licensed under the GNU General Public License v3.0. See `LICENSE` for the full license text.
